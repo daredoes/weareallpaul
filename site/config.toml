@@ -1,0 +1,11 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "We Are All Paul"
+
+[params]
+  description = "WE ARE ALL PAUL"
+
+[[menu.main]]
+    name = "About"
+    url  = "/about"
+    weight = 1

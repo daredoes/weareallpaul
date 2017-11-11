@@ -1,0 +1,6 @@
+html {height: 100%; width: 100%;}
+body {height: 100%; width: 100%; background: url(../img/concrete_seamless.png) repeat center center;}
+.background{
+  background: url(../img/concrete_seamless.png) repeat center center;
+}
+h1 {text-align: center; vertical-align: middle; position: relative; top: 25%; font-size: 15.0vmin;}
