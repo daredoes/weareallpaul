@@ -6,6 +6,6 @@ title = "We Are All Paul"
   description = "WE ARE ALL PAUL"
 
 [[menu.main]]
-    name = "About"
-    url  = "/about"
+    name = "Tenets"
+    url  = "/tenets"
     weight = 1

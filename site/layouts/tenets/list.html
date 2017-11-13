@@ -1,0 +1,11 @@
+{{ partial "header" . }}
+
+<div class="content container {{ .Title }} {{ .Section | urlize }}">
+  <a href="{{ .Site.BaseURL }}" class="right"><h6 class="grey-text text-darken-1">Home Is Where Paul Is</h6></a>
+  {{ range $p := .Pages}}
+  <a href="{{ $p.URL }}"><h3 class="grey-text text-darken-4">{{ $p.Title }}</h3></a>
+  <h5 style="padding-left: 1em;" class="grey-text text-darken-3">{{ $p.Content }}</h5>
+  {{ end }}
+</div>
+
+{{ partial "footer" . }}
